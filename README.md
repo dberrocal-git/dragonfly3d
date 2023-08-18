@@ -11,3 +11,17 @@ The 3d printer is on a slab and under it a hard packing sponge which reduces noi
 Raspberry Pi Zero W itself is used as a second MCU to control the ADXL sensor and as main MCU controller, running Debian Bullseye together with Moonraker API, Mainsail UI and, of course, Klipper firmware. 
 
 A maximum acceleration of 5900mm/s<sup>2</sup> has been achieved and thanks to a CHT nozzle (clone) and a copper heatbreak, flow rates of around 20mm<sup>3</sup>/s have been obtained allowing the speed to be increased to around 200 mm/s without sacrificing quality. Not bad for a bed slinger printer 😄.
+
+-------------------------------------
+
+# Shaper X
+- shaper_type_x = mzv
+- shaper_freq_x = 113.4
+
+![X](Input%20Shaper/shaper_calibrate_x.png?raw=true "Shaper X")
+
+# Shaper Y
+- shaper_type_y = ei
+- shaper_freq_y = 56.4
+
+![Y](Input%20Shaper/shaper_calibrate_y.png?raw=true "Shaper Y")
